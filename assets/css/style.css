@@ -12,8 +12,9 @@
     justify-content: space-around;
     color: white;
     background-color: #3161e0;
-    height: 100px;
+    height: 80px;
     align-items: center;
+    font-size: clamp(16px,2vw,20px);
 
 }
 
@@ -23,15 +24,45 @@
 }
 
 .container{
-    width: 60%;
-    margin: auto;
-    height: 400px;
-    background-color: red;
+    padding: 120px 40px 120px 40px;
     color: white;
-    text-align: center;
+    background-color:blueviolet;
 }
 
 
-.container h1{
-    
+.bho{
+    width: 65%;
+    text-align: center;
+    margin: auto;
+}
+
+.bho p{
+    margin-top: 40px;
+    font-size: clamp(16px,2vw,20px);
+}
+
+
+
+.pulsante{
+    border-radius: 40px;
+    padding: 7px 16px;
+    border: none;
+}
+
+.bianco{
+    background-color: white;
+    color: black;
+}
+
+.nero{
+    background-color: black;
+    color: white;
+}
+
+.bho button{
+    font-size: 24px;
+    margin: 24px 24px 0 0;
+}
+.centro{
+    align-items: center;
 }
