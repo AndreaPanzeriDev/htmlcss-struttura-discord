@@ -68,12 +68,15 @@
 }
 
 
-.background-righe{
+.background{
     height: auto;
     width: 100%;
     display: flex;
-    flex-direction: row;
     
+    
+}
+.righe{
+    flex-direction: row;
 }
 
 .color{
