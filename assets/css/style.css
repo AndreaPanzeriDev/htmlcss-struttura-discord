@@ -83,12 +83,20 @@
 }
 
 
+
 .background{
     height: auto;
     width: 100%;
+}
+
+.grigio{
     background-color: #f6f6f6;
 }
 
+.nero{
+    background-color: black;
+    opacity: 0.8;
+}
 .reverse{
     flex-direction: row-reverse;
 }
@@ -107,3 +115,23 @@
 }
 
 
+footer{
+    margin-top: 80px;
+}
+
+.foot{
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+
+.between{
+    justify-content: space-between ;
+}
+.separatore{
+    width: 85%;
+    height: 1px;
+    margin: 32px auto 32px auto;
+    background-color: #3161e0;
+}
