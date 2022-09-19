@@ -59,28 +59,34 @@
     color: white;
 }
 
+.viola{
+    background-color: #8ea1e1;
+    color: white;
+}
+
 .bho button{
     font-size: 24px;
     margin: 24px 24px 0 0;
 }
+
 .centro{
     align-items: center;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.righe{
+    flex-direction: row;
 }
 
 
 .background{
     height: auto;
     width: 100%;
-    display: flex;
-    
-    
-}
-.righe{
-    flex-direction: row;
-}
-
-.color{
-    background-color: blanchedalmond;
+    background-color: #f6f6f6;
 }
 
 .reverse{
@@ -99,3 +105,5 @@
     align-self: center;
     font-family: inherit;
 }
+
+
