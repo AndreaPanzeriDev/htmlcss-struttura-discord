@@ -79,6 +79,7 @@
     display: flex;
 }
 
+
 .righe{
     flex-direction: row;
 }
@@ -88,7 +89,9 @@
 .background{
     height: auto;
     width: 100%;
+    padding: 120px 40px 40px 40px;
 }
+
 
 .grigio{
     background-color: #f6f6f6;
