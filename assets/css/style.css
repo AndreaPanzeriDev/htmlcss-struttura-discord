@@ -27,7 +27,7 @@
 .container{
     padding: 120px 40px 120px 40px;
     color: white;
-    background-color:blueviolet;
+    background-image: url(../img/jumbo.png);
 }
 
 
@@ -82,6 +82,7 @@
 
 .righe{
     flex-direction: row;
+
 }
 
 
@@ -94,12 +95,13 @@
 
 
 .grigio{
-    background-color: #f6f6f6;
+    background-color: lightgray;
 }
 
 .nero{
-    background-color: black;
-    opacity: 0.8;
+    background-color: #23272a;
+    
+    
 }
 .reverse{
     flex-direction: row-reverse;
@@ -107,15 +109,12 @@
 
 .immagine{
     flex-basis: 60%;
-    align-items: center;
-    justify-content: flex-end;
 }
 
 .testo{
-    width: 30%;
-    text-align: left;
     align-self: center;
     font-family: inherit;
+    width: 30%;
 }
 
 
@@ -139,3 +138,37 @@ footer{
     margin: 32px auto 32px auto;
     background-color: #3161e0;
 }
+
+#stelline{
+    background-image: url('../img/stars.svg');
+    background-size: contain;
+}
+
+
+
+
+.titolo{
+    color: #3161e0;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.spazio{
+    padding: 5px 5px;
+}
+
+.allineamento{
+    align-items: stretch;
+}
+
+.ita{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#bandiera{
+    max-width: 25px;
+    margin: 4px;
+}
+
+
