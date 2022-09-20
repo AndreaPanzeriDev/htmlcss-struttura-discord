@@ -108,13 +108,13 @@
 }
 
 .immagine{
-    flex-basis: 60%;
+    flex-basis: 30%;
 }
 
 .testo{
     align-self: center;
     font-family: inherit;
-    width: 30%;
+    width: 25%;
 }
 
 
